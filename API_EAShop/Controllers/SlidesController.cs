@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using API_EAShop.Models;
 using Microsoft.AspNetCore.Cors;
 
-namespace DangQuangAPI.Controllers
+namespace API_EAShop.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

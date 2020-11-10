@@ -10,7 +10,7 @@ using System.Net.Http;
 using System.Net;
 
 
-namespace DangQuangAPI.Controllers
+namespace API_EAShop.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

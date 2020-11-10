@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_EAShop.Models;
 
-namespace DangQuangAPI.Controllers
+namespace API_EAShop.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
