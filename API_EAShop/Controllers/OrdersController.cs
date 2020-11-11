@@ -81,6 +81,11 @@ namespace API_EAShop.Controllers
                 try
                 {
                     _context.OrderDetail.Add(od);
+                    Product pr = _context.Product.Where(x => x.ProductId == p.productId).SingleOrDefault();
+                    if (pr != null)
+                    {
+                        pr.ProductQuantity = pr.ProductQuantity - p.quantity;
+                    }
                     await _context.SaveChangesAsync();
                 }
                 catch (Exception ex)
